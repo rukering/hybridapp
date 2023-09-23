@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+    <div id="user-info" style="display: none;">
+            <p>Welcome, <span id="user-name"></span>!</p>
+            <button id="logout-button">Log Out</button>
+    </div>
+        <!-- 세로 버튼 그룹 -->
+    <div class="vertical-buttons">
+        <button id="button1">Button 1</button>
+        <button id="button2">Button 2</button>
+        <button id="button3">Button 3</button>
+    </div>
+
+    <!-- 텍스트 출력 영역 -->
+    <div id="output-text">
+        <p>이곳에 텍스트를 출력할 수 있습니다.</p>
+    </div>
+        
+        
+        <script src="script.js"></script>    
+</body>
+</html>
